@@ -1,0 +1,37 @@
+.header {
+  height: 10vh;
+  display: flex;
+  padding: 4vh 10vw 0;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 80vw;
+  font-family: "Sacramento", cursive;
+}
+
+.name {
+  font-size: 42px;
+}
+
+.links {
+  display: flex;
+}
+
+.linkText {
+  font-size: 32px;
+  cursor: pointer;
+  transition: 1s linear;
+  margin: 0 2vw;
+}
+
+.linkText:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 425px) {
+  .name {
+    font-size: 32px;
+  }
+  .linkText {
+    font-size: 24px;
+  }
+}
